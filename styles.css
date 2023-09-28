@@ -2,7 +2,7 @@
 background-color: wheat;}
 
 .qrCode{
-height: 150px;
+height: 50px;
 width: 300px;
 display: flex;
 justify-content: center;
@@ -10,8 +10,10 @@ margin:auto;
 border-radius: 25px;}
 
 .urlInput{
+text-align: center;
+align-content: center;
 padding: 0%;
-height: auto;
+height: 25px;
 width: 400px;
 display: flex;
 justify-content: center;
@@ -19,6 +21,15 @@ margin:auto;
 border-radius: 25px;
 border-color: transparent;}
 
-*{
-    margin-top: -30px;
+.buttonStuff{flex-wrap: wrap;}
+
+.aStyle{
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:500;
+font-size: medium;
+color: black;}
+.aStyle:hover{
+    font-weight: 200;
+    font-size: large;
 }

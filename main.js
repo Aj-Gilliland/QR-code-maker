@@ -31,6 +31,7 @@ fetch(apiUrl)
       console.log(finalUrl)
       let aTag = document.querySelector("a");
       aTag.setAttribute("href", finalUrl)
+      aTag.setAttribute("style", "")
     
 
     })
@@ -38,6 +39,9 @@ fetch(apiUrl)
       console.error('There was a problem generating the QR code:', error);
     });
 }
+
+
+
 
 
 window.addEventListener("DOMContentLoaded", (event) => {
