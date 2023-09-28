@@ -1,0 +1,24 @@
+.bodyStuff{
+background-color: wheat;}
+
+.qrCode{
+height: 150px;
+width: 300px;
+display: flex;
+justify-content: center;
+margin:auto;
+border-radius: 25px;}
+
+.urlInput{
+padding: 0%;
+height: auto;
+width: 400px;
+display: flex;
+justify-content: center;
+margin:auto;
+border-radius: 25px;
+border-color: transparent;}
+
+*{
+    margin-top: -30px;
+}
